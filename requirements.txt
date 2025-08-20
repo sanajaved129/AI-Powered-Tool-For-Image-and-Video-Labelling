@@ -1,0 +1,32 @@
+# NumPy 1.x line
+numpy==1.26.4
+scipy==1.11.4
+pandas==1.5.3
+scikit-image==0.21.0
+matplotlib==3.7.3
+seaborn==0.12.2
+# OpenCV that still supports NumPy 1.x
+opencv-python==4.8.0.74
+Pillow==10.0.0
+tqdm==4.66.1
+
+# PyTorch (optional; works fine with NumPy 1.26)
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# TensorFlow line (pins NumPy < 2)
+tensorflow==2.17.0
+tensorboard==2.17.1
+keras==3.6.0
+
+# GUI
+PyQt5==5.15.10
+# Only if you truly need it; otherwise omit
+PyQtWebEngine==5.15.7
+
+# Optional utilities
+openpyxl==3.0.10
+plotly==5.17.0
+
+
